@@ -1,0 +1,67 @@
+body{
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,0.504042510558911) 0%, rgba(0,0,0,1) 100%);
+}
+
+#appBg{
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10% 0 0 40%;
+}
+
+#appBg form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 0 20px 20px 20px;
+    border-radius: 30px;
+    border: white 10px solid;
+}
+
+#appBg input[type=textfield]{
+    height: 25%;
+    width: 90%;
+    cursor: default;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+    background-color: gray;
+    border-radius: 10%;
+    margin: 20px 0 20px 0;
+}
+
+#appBg input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 90%;
+    border: 3px solid gray;
+}
+
+#appBg .red{
+    background-color: orange;
+    color: white;
+}
+
+#appBg .gray{
+    background-color: white;
+    color: white;
+}
+
+#appBg input:hover{
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
