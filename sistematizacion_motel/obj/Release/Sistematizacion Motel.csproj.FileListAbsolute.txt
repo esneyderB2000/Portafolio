@@ -1,0 +1,16 @@
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\bin\Release\Sistematizacion Motel.exe.config
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\bin\Release\Sistematizacion Motel.exe
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\bin\Release\Sistematizacion Motel.pdb
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion Motel.csproj.AssemblyReference.cache
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion Motel.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion_Motel.Inicio_Admin.resources
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion_Motel.Inicio_Sesion.resources
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion_Motel.Menu_Motel.resources
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion_Motel.Principal.resources
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion_Motel.Properties.Resources.resources
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion_Motel.Registro.resources
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion_Motel.Registro_Admin.resources
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion Motel.csproj.GenerateResource.cache
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion Motel.csproj.CoreCompileInputs.cache
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion Motel.exe
+C:\Users\ESNEYDER\OneDrive\Documentos\Programacion\Formularios C#\Sistematizacion Motel\obj\Release\Sistematizacion Motel.pdb
