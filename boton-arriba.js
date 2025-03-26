@@ -1,6 +1,6 @@
 window.addEventListener("scroll", function () {
   const boton = document.getElementById("botonArriba");
-  if (window.scrollY > 500) {
+  if (window.scrollY > 150) {
     boton.style.display = "block";
   } else {
     boton.style.display = "none";

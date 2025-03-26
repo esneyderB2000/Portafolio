@@ -12,11 +12,12 @@
 }
 
 p {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 main {
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(214, 219, 223);
+  justify-items: center;
 }
 
 .container {
@@ -44,6 +45,7 @@ main {
   background-attachment: fixed;
   background-position: center;
   position: relative;
+  justify-items: center;
 }
 
 .nav {
@@ -67,15 +69,15 @@ main {
   font-weight: inherit;
   background-color: var(--color-secondary);
   box-shadow: 0px 0px 10px white;
-  border-radius: 15em/10em;
+  border-radius: 20px;
 }
 
 .nav__items:hover {
   color: black;
-  transition: 0.2s;
+  transition: 0.5s;
   background-color: #f1f1f1;
   box-shadow: 0px 0px 10px cyan;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .nav__items--footer {
@@ -96,7 +98,6 @@ main {
 }
 
 .header__subtitle {
-  font-size: 2rem;
   font-weight: 900;
   display: inline;
   color: white;
@@ -172,7 +173,9 @@ main {
 }
 
 .projects {
-  background: rgb(160, 160, 160);
+  border-radius: 30px;
+  background-color: rgb(174, 182, 191);
+  box-shadow: 0px 0px 10px rgb(174, 182, 191);
 }
 
 .projects__grid {
@@ -270,6 +273,7 @@ main {
 }
 .footer {
   background: var(--color-primary);
+  justify-items: center;
 }
 
 .footer_grid {
@@ -430,21 +434,7 @@ a {
   animation: move 2s infinite alternate;
 }
 
-.servicios__container {
-  background-color: #f4f4f9;
-  padding-top: 50px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-.servicios__titulo {
-  font-size: 2em;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.servicios__descripcion {
-  font-size: 1.2em;
-  color: #555;
+.canva{
+  border:  3px solid white;
 }
