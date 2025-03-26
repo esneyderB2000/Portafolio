@@ -16,7 +16,7 @@ p {
 }
 
 main {
-  background-color: rgb(214, 219, 223);
+  background-color: rgb(234, 236, 238);
   justify-items: center;
 }
 
@@ -174,8 +174,8 @@ main {
 
 .projects {
   border-radius: 30px;
-  background-color: rgb(174, 182, 191);
-  box-shadow: 0px 0px 10px rgb(174, 182, 191);
+  background-color: rgb(214, 219, 223);
+  box-shadow: 0px 0px 10px black;
 }
 
 .projects__grid {
@@ -432,9 +432,4 @@ a {
   cursor: pointer;
   display: none;
   animation: move 2s infinite alternate;
-}
-
-
-.canva{
-  border:  3px solid white;
 }
