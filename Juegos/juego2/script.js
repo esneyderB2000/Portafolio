@@ -1,3 +1,5 @@
+
+
 //cargo en un arreglo las imganes de las banderas. Este sera el orden que se mostrarán
 let banderas = ["tierra.jpg", "jupiter.jpg", "sol.jpg", "saturno.jpg", "neptuno.jpg"];
 
@@ -88,5 +90,4 @@ function volverAlInicio(){
     //ocultamos las pantallas y activamos la inicial
     document.getElementById("pantalla-final").style.display = "none";
     document.getElementById("pantalla-inicial").style.display = "block";
-    document.getElementById("pantalla-juego").style.display = "none";
-}
+    document.getElementById("pantalla-juego").style.display = "none";}

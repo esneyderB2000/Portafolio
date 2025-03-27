@@ -1,3 +1,4 @@
+
 // aca iniciamos o creamos las variables
 let tarjetasDestapadas = 0;
 let tarjeta1 = null;
