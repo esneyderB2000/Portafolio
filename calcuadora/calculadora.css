@@ -1,10 +1,10 @@
 body{
     background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,0.504042510558911) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgb(255, 0, 0) -50%, rgba(0,0,0) 100%);
 }
 
 #appBg{
-    height: 500px;
+    height: 510px;
     width: 300px;
     border-radius: 5px;
     padding: 10% 0 0 40%;
@@ -16,7 +16,7 @@ background: radial-gradient(circle, rgba(255,255,255,0.504042510558911) 0%, rgba
     background-color: black;
     padding: 0 20px 20px 20px;
     border-radius: 30px;
-    border: white 10px solid;
+    border: 5px solid white;
 }
 
 #appBg input[type=textfield]{
@@ -31,8 +31,9 @@ background: radial-gradient(circle, rgba(255,255,255,0.504042510558911) 0%, rgba
     font-size: 50px;
     border: 0;
     outline: none;
-    background-color: gray;
-    border-radius: 10%;
+    background-color: rgb(184, 184, 184);
+    border: 3px solid white;
+    border-radius: 30px;
     margin: 20px 0 20px 0;
 }
 
@@ -46,12 +47,12 @@ background: radial-gradient(circle, rgba(255,255,255,0.504042510558911) 0%, rgba
     padding: 18px;
     margin: 3px;
     border: 0;
-    border-radius: 90%;
+    border-radius: 10px;
     border: 3px solid gray;
 }
 
 #appBg .red{
-    background-color: orange;
+    background-color: rgb(177, 1, 1);
     color: white;
 }
 
@@ -61,7 +62,8 @@ background: radial-gradient(circle, rgba(255,255,255,0.504042510558911) 0%, rgba
 }
 
 #appBg input:hover{
-    background-color: black;
-    transition: 0.4s;
+    background-color: red;
+    transition: 0.1s;
     color: white;
+    border: 3px solid white;
 }
