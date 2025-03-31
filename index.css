@@ -513,7 +513,7 @@ a {
     font-size: 50px;
     text-decoration: none;
   }
-  .presentation__copy{
+  .presentation__copy, .about__paragraph{
     font-size:medium;
   }
 }    
