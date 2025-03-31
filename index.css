@@ -437,3 +437,80 @@ a {
   display: none;
   animation: move 2s infinite alternate;
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin: 0 10px; /* Reducir margen */
+    padding: 40px 0; /* Reducir padding */
+  }
+
+  .header__container {
+    flex-direction: column; /* Apilar elementos verticalmente */
+    height: auto; /* Permitir que la altura se ajuste */
+  }
+
+  .header__texts {
+    width: 100%; /* Ancho completo en pantallas más pequeñas */
+    margin-bottom: 20px; /* Reducir margen inferior */
+  }
+
+  .subtitle {
+    font-size: 1.8rem; /* Reducir tamaño de fuente */
+  }
+
+  .nav {
+    flex-direction: column; /* Apilar elementos de navegación */
+  }
+
+  .nav__items {
+    margin-right: 0; /* Eliminar margen derecho */
+    margin-bottom: 10px; /* Agregar margen inferior */
+    width: 100%; /* Ancho completo para botones */
+  }
+
+  .presentation__picture {
+    width: 150px; /* Imagen de perfil más pequeña */
+  }
+
+  .about {
+    grid-template-columns: 1fr; /* Apilar elementos en una columna */
+  }
+
+  .projects__grid {
+    grid-template-columns: 1fr; /* Apilar proyectos */
+  }
+
+  .footer_grid {
+    grid-template-columns: 1fr; /* Apilar elementos del pie de página */
+  }
+
+  .testimony__grid {
+    grid-template-columns: 1fr; /* Apilar testimonios */
+  }
+
+  #botonArriba {
+    padding: 15px; /* Ajustar tamaño del botón */
+    bottom: 20px; /* Ajustar posición */
+    right: 10px; /* Ajustar posición */
+  }
+  .projects__grid {
+    display: grid;
+    height: 200px;
+    grid-template-areas:
+      "img1 img2 img3"
+      "img4 img5 img6";
+    gap: 0px;
+  }
+  .footer__icon {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
+  }
+}
