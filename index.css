@@ -49,7 +49,7 @@ main {
   justify-items: center;
 }
 
-.nav {
+nav {
   display: inline-block;
   justify-content: flex-end;
   height: 70px;
@@ -466,6 +466,7 @@ a {
   }
 
   nav{
+    flex-direction: column;
     top: 30px;
     left: 10px;
     position: relative;
