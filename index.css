@@ -462,17 +462,17 @@ a {
   }
 
   .subtitle {
-    font-size: 1.8rem; /* Reducir tamaño de fuente */
+    font-size: 1.5rem; /* Reducir tamaño de fuente */
   }
 
-  .nav {
-    flex-direction: column; /* Apilar elementos de navegación */
+  nav{
+    top: 30px;
+    left: 10px;
+    position: relative;
   }
 
   .nav__items {
-    margin-right: 0; /* Eliminar margen derecho */
-    margin-bottom: 10px; /* Agregar margen inferior */
-    width: 100%; /* Ancho completo para botones */
+    margin-right: 8px; /* Eliminar margen derecho */
   }
 
   .presentation__picture {
@@ -483,8 +483,9 @@ a {
     grid-template-columns: 1fr; /* Apilar elementos en una columna */
   }
 
-  .projects__grid {
-    grid-template-columns: 1fr; /* Apilar proyectos */
+  .projects__item{
+    width: 90%;
+    margin: 10px;
   }
 
   .footer_grid {
@@ -493,6 +494,21 @@ a {
 
   .testimony__grid {
     grid-template-columns: 1fr; /* Apilar testimonios */
+  }
+  .testimony__name{
+    font-size: larger;
+  }
+
+  .testimony__verification{
+    font-size: medium;
+  }
+
+  .testimony__review{
+    font-size: small;
+  }
+
+  .testimony__item{
+    width: 80%;
   }
 
   #botonArriba {
@@ -508,12 +524,23 @@ a {
       "img4 img5 img6";
     gap: 0px;
   }
+
   .footer__icon {
     color: rgb(255, 255, 255);
     font-size: 50px;
     text-decoration: none;
   }
   .presentation__copy, .about__paragraph{
-    font-size:medium;
+    font-size: small;
+  }
+
+  .header__texts{
+    font-size: small;
+    top: 65px;
+    position: relative;
+  }
+
+  #principio{
+    height: 600px;
   }
 }    
