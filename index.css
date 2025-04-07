@@ -460,8 +460,7 @@ a {
   }
 
   .testimony__container{
-    margin: 0 10px; /* Reducir margen */
-    padding: 70px 0; /* Reducir padding */
+    padding-left: 30px;
   }
 
   .header__texts {
