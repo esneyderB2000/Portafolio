@@ -488,7 +488,7 @@ a {
   }
 
   .projects__item{
-    width: 90%;
+    width: 80%;
     margin: 10px;
   }
 
@@ -522,10 +522,14 @@ a {
   }
   .projects__grid {
     display: grid;
-    height: 200px;
+    height: 100%;
     grid-template-areas:
-      "img1 img2 img3"
-      "img4 img5 img6";
+      "img1 img2"
+      "img3 img4"
+      "img5 img6"
+      "img7 img8"
+      "img9 img10"
+      ;
     gap: 0px;
   }
 
