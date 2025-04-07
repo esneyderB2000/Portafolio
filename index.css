@@ -459,6 +459,11 @@ a {
     height: auto; /* Permitir que la altura se ajuste */
   }
 
+  .testimony__container{
+    margin: 0 10px; /* Reducir margen */
+    padding: 70px 0; /* Reducir padding */
+  }
+
   .header__texts {
     width: 100%; /* Ancho completo en pantallas más pequeñas */
     margin-bottom: 20px; /* Reducir margen inferior */
@@ -486,10 +491,10 @@ a {
   .about {
     grid-template-columns: 1fr; /* Apilar elementos en una columna */
   }
-
+  
   .projects__item{
     width: 80%;
-    margin: 10px;
+    margin: 5px;
   }
 
   .footer_grid {
@@ -522,11 +527,10 @@ a {
   }
   .projects__grid {
     display: grid;
-    height: 100%;
     grid-template-areas:
       "img1 img2"
       "img3 img4"
-      "img5 img6"
+      "img5 img6" 
       "img7 img8"
       "img9 img10"
       ;
