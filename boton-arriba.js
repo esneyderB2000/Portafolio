@@ -19,25 +19,13 @@ function scrollArriba() {
   }, velocidad);
 }
 
-function scrollAbajo(event) {
-  event.preventDefault();
-  
-  const destino0 = document.querySelector("#sobre-mi");
-  const destino1 = document.querySelector("#proyectos");
-  const destino2 = document.querySelector("#contactame");
+function scrollAbajo(event, destinoId) {
+  event.preventDefault(); 
 
-  destino0.scrollIntoView({
-    behavior: 'smooth', 
-    block: 'start'
-  });
+  const destino = document.querySelector(destinoId);
 
-  destino1.scrollIntoView({
-    behavior: 'smooth', 
-    block: 'start'
-  });
-
-  destino2.scrollIntoView({
-    behavior: 'smooth', 
-    block: 'start'
+  destino.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'  
   });
 }
