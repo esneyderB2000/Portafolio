@@ -450,7 +450,7 @@ a {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1500px) {
   .container {
     margin: 0 10px; /* Reducir margen */
     padding: 40px 0; /* Reducir padding */
