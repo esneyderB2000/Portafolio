@@ -8,7 +8,7 @@ window.addEventListener("scroll", function () {
 });
 
 function scrollArriba() {
-  const velocidad = 15;
+  const velocidad = 10;
   const desplazamiento = window.scrollY;
   const intervalo = setInterval(() => {
     if (window.scrollY > 0) {
@@ -17,4 +17,27 @@ function scrollArriba() {
       clearInterval(intervalo);
     }
   }, velocidad);
+}
+
+function scrollAbajo(event) {
+  event.preventDefault();
+  
+  const destino0 = document.querySelector("#sobre-mi");
+  const destino1 = document.querySelector("#proyectos");
+  const destino2 = document.querySelector("#contactame");
+
+  destino0.scrollIntoView({
+    behavior: 'smooth', 
+    block: 'start'
+  });
+
+  destino1.scrollIntoView({
+    behavior: 'smooth', 
+    block: 'start'
+  });
+
+  destino2.scrollIntoView({
+    behavior: 'smooth', 
+    block: 'start'
+  });
 }
