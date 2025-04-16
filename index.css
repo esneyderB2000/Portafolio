@@ -336,7 +336,7 @@ footer__container-icons {
   width: 94%;
   margin: auto;
   background: var(--color-secondary);
-  box-shadow: 0 8px 10px rgb(66, 66, 66, 0.5);
+  box-shadow: 0 8px 10px rgba(8, 7, 7, 0.5);
   border-radius: 7px;
   padding: 30px 25px;
   color: aliceblue;
@@ -556,4 +556,16 @@ a {
   #principio{
     height: 600px;
   }
-}    
+}  
+
+
+
+
+.contacto{
+  border-radius: 30px;
+  background-color: rgb(210, 220, 230);
+  box-shadow: 0px 0px 5px black;
+  width: 80%;
+  justify-items: center;
+  margin-bottom: 50px;
+}
