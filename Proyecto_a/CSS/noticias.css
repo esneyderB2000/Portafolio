@@ -6,7 +6,7 @@
 
 body{
     background-size: 100%;
-    background-image: url("https://fondosmil.com/fondo/8553.jpg");
+    background-color: black; 
     font-family:Georgia, 'Times New Roman', Times, serif;
     overflow-x: hidden;
 }
@@ -17,7 +17,7 @@ h1{
     width: 100%;
     z-index: 1;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 0;
     padding: 10px;
     color: rgb(255, 255, 255);
@@ -102,7 +102,7 @@ a{
     display: grid;
     position: relative;
     grid-template-rows: 700px 700px 700px;
-    grid-template-columns: 600px 600px 600px;
+    grid-template-columns: 500px 500px 500px;
     top: 150px;
 }
 
@@ -117,61 +117,62 @@ a{
 .img1{
     object-fit: cover; 
     width: 100%;
-    height: 75%;
+    height: 78%;
 }
 
 .img2{
     object-fit: cover; 
     width: 100%;
-    height: 86.5%;
+    height: 88%;
 }
 
 .img3{
     object-fit: cover; 
     width: 100%;
-    height: 87%;
+    height: 83%;
 }
 
 .img4{
     object-fit: cover; 
     width: 100%;
-    height: 80.5%;
+    height: 83%;
 }
 
 .img5{
     object-fit: cover; 
     width: 100%;
-    height: 80.5%;
+    height: 78%;
 }
 
 .img6{
     object-fit: cover; 
     width: 100%;
-    height: 74.5%;
+    height: 78%;
 }
 
 .img7{
     object-fit: cover; 
     width: 100%;
-    height: 80.5%;
+    height: 83%;
 }
 
 .img8{
     object-fit: cover; 
     width: 100%;
-    height: 74.5%;
+    height: 78%;
 }
 
 .img9{
     object-fit: cover; 
     width: 100%;
-    height: 74.5%;
+    height: 73%;
 }
 
 h3{
     text-align: center;
     color: white;
     font-weight: bold;
+    font-size: 20px;
     margin: 5px;
     line-height: 1.5;
     text-shadow: 2px 2px 1px black, 0 0 1em black, 0 0 0.2em black;

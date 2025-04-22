@@ -24,8 +24,8 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 80px;
-    margin-top: 0;
+    font-size: 60px;
+    margin-top: 10px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
     padding-bottom: 100px;
@@ -37,7 +37,7 @@ h1 {
     position: relative;
     right: 110px;
     text-align: center;
-    font-size: 55px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
     background: linear-gradient(to bottom red, blue);
@@ -56,7 +56,7 @@ h1 {
 }
 
 input {
-    font-size: 18px;
+    font-size: 15px;
     border-top: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 7px solid black;
@@ -79,7 +79,6 @@ input:focus {
 .crear {
     display: block;
     text-align: right;
-    padding-top: 30px;
 }
 
 .large0 {
@@ -102,95 +101,85 @@ input:focus {
     margin: 0;
     height: 25px;
     width: 170px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .botones {
-    border-top: 3px solid green;
-    border-right: 3px solid green;
-    border-bottom: 7px solid green;
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    border-bottom: 5px solid green;
     border-left: 3px solid green;
     text-shadow: 1px 7px 7px green;
     color: white;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, green 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .botones1 {
-    border-top: 3px solid red;
-    border-right: 3px solid red;
-    border-bottom: 7px solid red;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 5px solid red;
     border-left: 3px solid red;
+    text-shadow: 1px 7px 7px red;
     color: white;
-    text-shadow: 1px 7px 7px black;
-    font-size: 20px;
-    top: 50px;
-    position: relative;
-    right: 500px;
-    font-weight: bold;
-    width: 150px;
-    height: 50px;
-    margin-top: 15px;
-    border-radius: 10% / 50%;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, red 0%, rgba(0, 0, 0, 1) 100%);
+    margin-right: 400px;
 }
 
 .botones2 {
-    border-top: 3px solid green;
-    border-right: 3px solid green;
-    border-bottom: 7px solid green;
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    border-bottom: 5px solid green;
     border-left: 3px solid green;
-    text-shadow: 1px 7px 7px black;
+    text-shadow: 1px 7px 7px green;
     color: white;
-    font-size: 20px;
-    bottom: 60px;
-    position: relative;
-    font-weight: bold;
-    width: 150px;
-    height: 50px;
-    margin-top: 15px;
-    border-radius: 10% / 50%;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, green 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .botones:hover {
     cursor: pointer;
-    width: 155px;
-    height: 55px;
+    width: 125px;
+    height: 45px;
     transition: 0.5s;
     box-shadow: 2px 2px 20px rgb(255, 255, 255), 0 0 1em white, 0 0 0.2em rgb(255, 255, 255);
 }
 
 .botones1:hover {
     cursor: pointer;
-    width: 155px;
-    height: 55px;
+    width: 125px;
+    height: 45px;
     transition: 0.5s;
     box-shadow: 2px 2px 20px rgb(255, 255, 255), 0 0 1em white, 0 0 0.2em rgb(255, 255, 255);
 }
 
 .botones2:hover {
     cursor: pointer;
-    width: 155px;
-    height: 55px;
+    width: 125px;
+    height: 45px;
     transition: 0.5s;
     box-shadow: 2px 2px 20px rgb(255, 255, 255), 0 0 1em white, 0 0 0.2em rgb(255, 255, 255);
 }
 
 .terminos {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     margin: 10px;
     position: relative;
     bottom: 80px;
-    left: 19px;
     cursor: help;
+    right: 60px;
 }
 
 .aceptar {
@@ -210,14 +199,7 @@ img {
     width: 15%;
     border-radius: 50%;
     box-shadow: 0 0 5em rgb(255, 255, 255);
-}
-
-img:hover {
-    width: 40%;
-    text-align: center;
-    transition: 3s;
-    border: 20px solid white;
-    cursor: grab;
+    cursor: pointer;
 }
 
 a {
@@ -234,7 +216,7 @@ a:hover {
 
 select {
     margin: 10px;
-    font-size: 18px;
+    font-size: 15px;
     background: rgb(255, 255, 255);
     background: linear-gradient(80deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
     width: 150px;
@@ -292,11 +274,7 @@ h3 {
     box-sizing: none;
     border-radius: 50px;
     position: relative;
-    left: 123.5ch;
-    bottom: 45px;
-}
-
-.hola:hover {
-    width: 250px;
-    border: none;
+    bottom: 84px;
+    right: 220px;
+    float: right; 
 }

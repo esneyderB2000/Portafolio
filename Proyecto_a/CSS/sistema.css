@@ -118,7 +118,7 @@ a{
 h2{
     border: 20px double black;
     background-color: white;
-    margin: 50px;
+    margin: 45px;
     display: inline-block;
     color: black;
     font-weight: bold;
@@ -129,7 +129,7 @@ h2{
 p{
     text-shadow: 2px 2px 7px blue;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.8;
     width: 100%;

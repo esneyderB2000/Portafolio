@@ -91,19 +91,20 @@ a{
 img{
     position: relative;
     box-shadow: 1px 1px 2px black, 0 0 1.5em rgb(255, 255, 255), 0 0 0.2em blue;
-    border: 15px solid white;
+    border: 10px solid white;
     background-color: black;
     width: 20ch;
 }
 
-.img1{
-    margin-left: 50px;
+.img1 {
     position: relative;
-    float: left;
     margin-top: 100px;
-    border-radius: 100%;
-    display: inline;
+    border-radius: 50%;
+    display: block; /* Necesario para usar margin: auto */
+    margin-left: auto; /* Centrado automático */
+    margin-right: auto; /* Centrado automático */
 }
+
 
 .img1 img:hover{
     transition: 0.5s;
@@ -113,11 +114,11 @@ img{
 
 .img2{
     position: relative;
-    left: 10px;
-    float: right;
-    border-radius: 100%;
-    margin-right: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    display: block; /* Necesario para usar margin: auto */
+    margin-left: auto; /* Centrado automático */
+    margin-right: auto; /* Centrado automático */
 }
 
 .img2 img:hover{
@@ -127,11 +128,12 @@ img{
 }
 
 .img3{
-    margin-left: 100px;
-    position: center;
-    padding-top: 100px;
-    float: left;
-    border-radius: 100%;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 50%;
+    display: block; /* Necesario para usar margin: auto */
+    margin-left: auto; /* Centrado automático */
+    margin-right: auto; /* Centrado automático */
 }
 
 .img3 img:hover{

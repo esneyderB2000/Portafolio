@@ -305,7 +305,7 @@ nav {
   justify-content: space-evenly;
 }
 
-.footer__container-icons {
+footer__container-icons {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -398,13 +398,12 @@ nav {
   justify-content: space-evenly;
 }
 
-.footer__container-icons {
+footer__container-icons {
   display: inline-block;
   width: 60px;
   height: 60px;
   color: aliceblue;
   text-align: center;
-  border: 1px solid aliceblue;
   border-radius: 50%;
 }
 
