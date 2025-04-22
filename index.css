@@ -469,7 +469,7 @@ a {
   background-color: #0056b3;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   .header{
     padding-bottom: 80px;
     background-image: var(--background),
@@ -503,6 +503,7 @@ a {
 
   .subtitle {
     font-size: 2rem; /* Reducir tamaño de fuente */
+    text-align: center;
   }
 
   nav{
@@ -528,7 +529,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 70%;
+    width: 90%;
   }
 
   .projects__item{
@@ -583,6 +584,16 @@ a {
   }
   .presentation__copy, .about__paragraph{
     font-size: medium;
+    text-align: center;
+  }
+
+  .about__paragraph{
+    left: 45px;
+    position: relative;
+  }
+
+  #diferent{
+    text-align: start;
   }
 
   .header__texts{
@@ -594,4 +605,8 @@ a {
   #principio{
     height: 600px;
   }
+
+.about__texts{
+  justify-content: center;
+}
 }
