@@ -23,7 +23,7 @@ main {
 
 .container {
   width: 90%;
-  margin: o auto;
+  margin: auto;
   overflow: hidden;
   padding: 80px 0px;
   max-width: 1200px;
@@ -470,6 +470,10 @@ a {
 }
 
 @media screen and (max-width: 1500px) {
+  .hvd{
+    margin-bottom  : 100px;
+  }
+
   .container {
     margin: 0 10px; /* Reducir margen */
     padding: 40px 0; /* Reducir padding */
@@ -512,6 +516,13 @@ a {
     grid-template-columns: 1fr; /* Apilar elementos en una columna */
   }
   
+  .about__img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 70%;
+  }
+
   .projects__item{
     width: 80%;
     margin: 5px;
