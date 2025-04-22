@@ -453,7 +453,6 @@ a {
 }
 
 .hvd {
-  margin-top: 20px;
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--color-secondary);
@@ -463,6 +462,7 @@ a {
   border-radius: 10px;
   transition: background-color 0.3s ease;
   border: 1px solid white;
+  margin-bottom: 50px;
 }
 
 .hvd:hover {
@@ -470,8 +470,16 @@ a {
 }
 
 @media screen and (max-width: 1500px) {
-  .hvd{
-    margin-bottom  : 100px;
+  .header{
+    padding-bottom: 80px;
+    background-image: var(--background),
+      url(https://fotografias.antena3.com/clipping/cmsimages02/2022/08/25/B661900F-DEE7-4105-A96E-719BA1780FE2/programador_98.jpg?crop=1920,1080,x0,y170&width=1900&height=1069&optimize=low&format=webply);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    justify-items: center;
   }
 
   .container {
@@ -490,11 +498,11 @@ a {
 
   .header__texts {
     width: 100%; /* Ancho completo en pantallas más pequeñas */
-    margin-bottom: 20px; /* Reducir margen inferior */
+    margin-top: none;
   }
 
   .subtitle {
-    font-size: 1.5rem; /* Reducir tamaño de fuente */
+    font-size: 2rem; /* Reducir tamaño de fuente */
   }
 
   nav{
@@ -544,7 +552,7 @@ a {
   }
 
   .testimony__review{
-    font-size: small;
+    font-size: medium;
   }
 
   .testimony__item{
@@ -574,7 +582,7 @@ a {
     text-decoration: none;
   }
   .presentation__copy, .about__paragraph{
-    font-size: small;
+    font-size: medium;
   }
 
   .header__texts{
