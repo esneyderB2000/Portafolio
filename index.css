@@ -743,3 +743,7 @@ a {
   margin: 0.5rem 0;
   color: #555;
 }
+
+.info-section__text{
+  padding-left: 0px;
+}
