@@ -468,10 +468,10 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-  .header{
+  /* Header */
+  .header {
     padding-bottom: 80px;
-    background-image: var(--background),
-      url(https://fotografias.antena3.com/clipping/cmsimages02/2022/08/25/B661900F-DEE7-4105-A96E-719BA1780FE2/programador_98.jpg?crop=1920,1080,x0,y170&width=1900&height=1069&optimize=low&format=webply);
+    background-image: var(--background), url(https://fotografias.antena3.com/clipping/cmsimages02/2022/08/25/B661900F-DEE7-4105-A96E-719BA1780FE2/programador_98.jpg?crop=1920,1080,x0,y170&width=1900&height=1069&optimize=low&format=webply);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -480,31 +480,40 @@ a {
     justify-items: center;
   }
 
+  /* General container */
   .container {
     margin: 0 10px; /* Reducir margen */
     padding: 40px 0; /* Reducir padding */
   }
 
+  /* Header container */
   .header__container {
     flex-direction: column; /* Apilar elementos verticalmente */
     height: auto; /* Permitir que la altura se ajuste */
   }
 
-  .testimony__container{
+  /* Testimony container */
+  .testimony__container {
     padding-left: 20px;
   }
 
+  /* Header text */
   .header__texts {
     width: 100%; /* Ancho completo en pantallas más pequeñas */
     margin-top: none;
+    font-size: small;
+    top: 65px;
+    position: relative;
   }
 
+  /* Subtitle */
   .subtitle {
     font-size: 2rem; /* Reducir tamaño de fuente */
     text-align: center;
   }
 
-  nav{
+  /* Navigation */
+  nav {
     flex-direction: column;
     top: 30px;
     left: 10px;
@@ -515,26 +524,30 @@ a {
     margin-right: 8px; /* Eliminar margen derecho */
   }
 
+  /* Profile picture */
   .presentation__picture {
     width: 150px; /* Imagen de perfil más pequeña */
   }
 
+  /* About section */
   .about {
     grid-template-columns: 1fr; /* Apilar elementos en una columna */
   }
-  
-  .about__img{
+
+  .about__img {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     width: 90%;
   }
 
-  .projects__item{
+  /* Projects */
+  .projects__item {
     width: 80%;
     margin: 5px;
   }
 
+  /* Footer */
   .footer_grid {
     grid-template-columns: 1fr; /* Apilar elementos del pie de página */
   }
@@ -542,83 +555,172 @@ a {
   .testimony__grid {
     grid-template-columns: 1fr; /* Apilar testimonios */
   }
-  .testimony__name{
+
+  /* Testimony Texts */
+  .testimony__name {
     font-size: larger;
   }
 
-  .testimony__verification{
+  .testimony__verification {
     font-size: medium;
   }
 
-  .testimony__review{
+  .testimony__review {
     font-size: medium;
   }
 
-  .testimony__item{
+  .testimony__item {
     width: 80%;
   }
 
+  /* Button */
   #botonArriba {
     padding: 15px; /* Ajustar tamaño del botón */
     bottom: 20px; /* Ajustar posición */
     right: 10px; /* Ajustar posición */
   }
+
+  /* Projects Grid */
   .projects__grid {
     display: grid;
     grid-template-areas:
       "img1 img2"
       "img3 img4"
-      "img5 img6" 
+      "img5 img6"
       "img7 img8"
-      "img9 img10"
-      ;
+      "img9 img10";
     gap: 0px;
   }
 
+  /* Footer icon */
   .footer__icon {
     color: rgb(255, 255, 255);
     font-size: 50px;
     text-decoration: none;
   }
-  .presentation__copy, .about__paragraph{
+
+  /* Texts */
+  .presentation__copy, .about__paragraph {
     font-size: medium;
     text-align: center;
   }
 
-  .about__paragraph{
+  .about__paragraph {
     left: 45px;
     position: relative;
   }
 
-  #diferent{
+  #diferent {
     text-align: start;
   }
 
-  .header__texts{
-    font-size: small;
-    top: 65px;
-    position: relative;
-  }
-
-  #principio{
+  /* Principle section */
+  #principio {
     height: 600px;
   }
 
-.about__texts{
-  justify-content: center;
-}
+  .about__texts {
+    justify-content: center;
+  }
+
+  /* Cursos & Info Section */
+  .cursos, .info-section {
+    max-width: 90%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+  }
+
+  .cursos h2, .info-section__title {
+    font-size: 1.6rem;
+  }
+
+  .cursos li, .info-section__text {
+    font-size: 1rem;
+  }
+
+  .info-section__text {
+    padding-left: 20px;
+  }
 }
 
+@media (max-width: 600px) {
+  /* Cursos & Info Section */
+  .cursos h2, .info-section__title {
+    font-size: 1.4rem;
+  }
 
-.cursos {
-  background-color: #f9f9f9;
-  padding: 1.5rem 0 1.5rem 0;
-  border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 700px;
-  margin: 2rem auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  .cursos li, .info-section__text {
+    font-size: 0.9rem;
+  }
+
+  .info-section__text {
+    padding-left: 10px;
+  }
 }
+
+@media (min-width: 1000px){
+    
+  .cursos {
+    background-color: #f9f9f9;
+    padding: 1.5rem 0 1.5rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .cursos1{
+    padding: 2rem;
+  }
+  
+  .cursos h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .cursos ul {
+    list-style-type: '✅ ';
+    padding-left: 1.2rem;
+  }
+  
+  .cursos li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  
+  
+  
+  .info-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .info-section__title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .info-section__text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    padding-left: 50px;
+  }
+}
+
 
 .cursos1{
   padding: 2rem;
@@ -640,32 +742,4 @@ a {
   font-size: 1.1rem;
   margin: 0.5rem 0;
   color: #555;
-}
-
-
-
-
-.info-section {
-  background-color: #f9f9f9;
-  padding: 2rem;
-  margin: 2rem auto;
-  border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.info-section__title {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  color: #333;
-}
-
-.info-section__text {
-  font-size: 1.1rem;
-  color: #555;
-  line-height: 1.6;
-  text-align: justify;
-  padding-left: 50px;
 }
