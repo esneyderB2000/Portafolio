@@ -12,7 +12,6 @@
 }
 
 h3,h1,h2{
-  text-shadow: 0px 0px 2px black;
   letter-spacing: 0.5px;
 }
 
@@ -659,7 +658,9 @@ a {
 }
 
 @media (min-width: 1000px){
-    
+  .tech-card i {
+    font-size: 2rem;
+  }
   .cursos {
     background-color: #f9f9f9;
     padding: 1.5rem 0 1.5rem 0;
@@ -701,7 +702,7 @@ a {
     margin: 2rem auto;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 1000px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
@@ -717,7 +718,7 @@ a {
     color: #555;
     line-height: 1.6;
     text-align: justify;
-    padding-left: 50px;
+    padding-left: 50px !important;
   }
 }
 
@@ -746,4 +747,75 @@ a {
 
 .info-section__text{
   padding-left: 0px;
+}
+
+.skills {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 0.9rem;
+}
+
+.tech-card:hover i {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+.tech-card i {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Colores personalizados */
+.html i { color: #e34c26; }
+.css i { color: #264de4; }
+.wordpress i { color: #21759b; }
+.js i { color: #f0db4f; }
+.php i { color: #8892be; }
+.csharp i { color: #68217a; }
+.git i { color: #f1502f; }
+.github i { color: #333; }
+.sql i { color: #00618a; }
+.mysql i { color: #007fb6; }
+.python i { color: #3776AB }
+.phpmyadmin i { color: orange}
+.ofimaticas i { color: #17a2b8;}
+
+.studying i {
+  color: #ff9900; /* Naranja para representar progreso, puedes cambiarlo */
+}
+
+.studying {
+  background-color: #fff7e6; /* Fondo suave que indica estado en progreso */
+  font-weight: 600;
+  color: #444;
 }
