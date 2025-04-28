@@ -501,7 +501,6 @@ a {
   /* Header text */
   .header__texts {
     width: 100%; /* Ancho completo en pantallas más pequeñas */
-    margin-top: none;
     font-size: small;
     top: 65px;
     position: relative;
